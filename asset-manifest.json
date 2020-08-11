@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/oneMemoryApp/static/css/main.9538205e.chunk.css",
+    "main.js": "/oneMemoryApp/static/js/main.4cdb8cd6.chunk.js",
+    "main.js.map": "/oneMemoryApp/static/js/main.4cdb8cd6.chunk.js.map",
+    "runtime-main.js": "/oneMemoryApp/static/js/runtime-main.5ce6160c.js",
+    "runtime-main.js.map": "/oneMemoryApp/static/js/runtime-main.5ce6160c.js.map",
+    "static/js/2.599ad18f.chunk.js": "/oneMemoryApp/static/js/2.599ad18f.chunk.js",
+    "static/js/2.599ad18f.chunk.js.map": "/oneMemoryApp/static/js/2.599ad18f.chunk.js.map",
+    "index.html": "/oneMemoryApp/index.html",
+    "precache-manifest.59ffe4c4bc393d738b7bbd41caf8c714.js": "/oneMemoryApp/precache-manifest.59ffe4c4bc393d738b7bbd41caf8c714.js",
+    "service-worker.js": "/oneMemoryApp/service-worker.js",
+    "static/css/main.9538205e.chunk.css.map": "/oneMemoryApp/static/css/main.9538205e.chunk.css.map",
+    "static/js/2.599ad18f.chunk.js.LICENSE.txt": "/oneMemoryApp/static/js/2.599ad18f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ce6160c.js",
+    "static/js/2.599ad18f.chunk.js",
+    "static/css/main.9538205e.chunk.css",
+    "static/js/main.4cdb8cd6.chunk.js"
+  ]
+}
