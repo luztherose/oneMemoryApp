@@ -6,12 +6,12 @@ import Footer from './Footer';
 import './App.css';
 
 class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-      usermemory:["It's working!"]
-    }
-  }
+  // constructor() {
+  //   super()
+  //   this.state = {
+  //     usermemory:["It's working!"]
+  //   }
+  // }
 
 
   render() {
@@ -21,11 +21,11 @@ class App extends Component {
         <Main />
         <Footer />
         
-        {
+        {/* {
         this.state.usermemory.map( (memoryEntry) => {
           return <div>{memoryEntry}</div>
         })
-      }
+      } */}
       </div>
     );
   }
