@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/oneMemoryApp/precache-manifest.59ffe4c4bc393d738b7bbd41caf8c714.js"
+  "/oneMemoryApp/precache-manifest.a62f7ac0a0c4ffae9ff2692f685590a1.js"
 );
 
 self.addEventListener('message', (event) => {
