@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/oneMemoryApp/static/css/main.b0afcfd9.chunk.css",
-    "main.js": "/oneMemoryApp/static/js/main.185d6cfc.chunk.js",
-    "main.js.map": "/oneMemoryApp/static/js/main.185d6cfc.chunk.js.map",
+    "main.css": "/oneMemoryApp/static/css/main.33eedcbb.chunk.css",
+    "main.js": "/oneMemoryApp/static/js/main.871e1c43.chunk.js",
+    "main.js.map": "/oneMemoryApp/static/js/main.871e1c43.chunk.js.map",
     "runtime-main.js": "/oneMemoryApp/static/js/runtime-main.5ce6160c.js",
     "runtime-main.js.map": "/oneMemoryApp/static/js/runtime-main.5ce6160c.js.map",
     "static/js/2.77dcca06.chunk.js": "/oneMemoryApp/static/js/2.77dcca06.chunk.js",
     "static/js/2.77dcca06.chunk.js.map": "/oneMemoryApp/static/js/2.77dcca06.chunk.js.map",
     "index.html": "/oneMemoryApp/index.html",
-    "precache-manifest.a62f7ac0a0c4ffae9ff2692f685590a1.js": "/oneMemoryApp/precache-manifest.a62f7ac0a0c4ffae9ff2692f685590a1.js",
+    "precache-manifest.78d46fbb39f9b08dbf6b068ef6afc622.js": "/oneMemoryApp/precache-manifest.78d46fbb39f9b08dbf6b068ef6afc622.js",
     "service-worker.js": "/oneMemoryApp/service-worker.js",
-    "static/css/main.b0afcfd9.chunk.css.map": "/oneMemoryApp/static/css/main.b0afcfd9.chunk.css.map",
-    "static/js/2.77dcca06.chunk.js.LICENSE.txt": "/oneMemoryApp/static/js/2.77dcca06.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/oneMemoryApp/static/media/unsplashBackground.99b7890a.jpg"
+    "static/css/main.33eedcbb.chunk.css.map": "/oneMemoryApp/static/css/main.33eedcbb.chunk.css.map",
+    "static/js/2.77dcca06.chunk.js.LICENSE.txt": "/oneMemoryApp/static/js/2.77dcca06.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ce6160c.js",
     "static/js/2.77dcca06.chunk.js",
-    "static/css/main.b0afcfd9.chunk.css",
-    "static/js/main.185d6cfc.chunk.js"
+    "static/css/main.33eedcbb.chunk.css",
+    "static/js/main.871e1c43.chunk.js"
   ]
 }
