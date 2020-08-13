@@ -22,6 +22,12 @@ class Main extends Component {
         event.preventDefault();
         const dbRef = firebase.database().ref();
         dbRef.push(this.state);
+
+        this.setState({
+            entryComment: "",
+            entryDate: "",
+            entryTitle: ""
+        })
     }
 
     render() {
@@ -36,13 +42,13 @@ class Main extends Component {
                     <form action="submit">
 
                         <label htmlFor="date" className="date">Entry Date:</label>
-                        <input onChange={this.handleChange} type="date" name="entryDate"/>
+                        <input onChange={this.handleChange}  value={ this.state.entryDate } type="date" name="entryDate" />
 
                         <label htmlFor="title" className="title">Title:</label>
-                        <input onChange={this.handleChange} type="text" name="entryTitle" placeholder="Trip to France" />
+                        <input onChange={this.handleChange} value={ this.state.entryTitle } type="text" name="entryTitle" placeholder="Trip to France" />
 
                         <label htmlFor="newEntry"></label>
-                        <textarea onChange={this.handleChange} type="text" name="entryComment" id="newEntry" rows="5" cols="40" maxLength="380" placeholder="Type out your Souvenir" />
+                        <textarea onChange={this.handleChange} value={ this.state.entryComment } type="text" name="entryComment" id="newEntry" rows="5" cols="40" maxLength="380" placeholder="Type out your Souvenir" />
 
                         <button onClick={this.handleClick}>Log Entry</button>
 

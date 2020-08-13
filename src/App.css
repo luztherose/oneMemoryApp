@@ -40,8 +40,9 @@ body {
 }
 h3 {
   font-family: 'Lobster', cursive;
+  font-size: 4rem;
   text-align: center;
-  padding: 20px 0;
+  padding: 0px 0 20px 0;
 }
 
 .preview p,
@@ -49,9 +50,9 @@ h3 {
 blockquote {
   font-family: 'Marck Script', cursive;
 }
-.preview p:last-of-type,
-.entriesSection p:last-of-type{
-  margin-top: 20px;
+.preview p:first-of-type,
+.entriesSection p:first-of-type {
+  text-align: end;
 }
 /* Header style */
 .description {
@@ -80,9 +81,10 @@ main {
 .firstSection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  gap: 4%;
+  grid-gap: 4%;
+  
 }
-/* input, */
+input,
 button,
 textarea {
   display: block;
@@ -127,17 +129,18 @@ textarea {
 }
 .entriesSection {
   display: grid;
-  grid-template-columns:  repeat( auto-fit, minmax(280px, 1fr) );
+  grid-template-columns:  repeat( auto-fit, minmax(280px, 380px) );
   grid-template-rows: auto;
-  column-gap: 4%;
+  /* column-gap: 4%; */
+  grid-gap: 50px;
 }
 .entriesSection div {
   column-count: 1;
   text-align: center;
 }
 .removeEntry {
-  display: inline;
-  font-size: 100%;
+  /* display: inline; */
+  font-size: 70%;
   font-family: inherit;
   border: 0;
   padding: 0;
@@ -145,6 +148,8 @@ textarea {
 }
 /* Footer  */
 footer {
+  margin-top: 40px;
+  background-color: goldenrod;
   text-align: center;
   padding: 30px 0;
 }

@@ -34,9 +34,9 @@ class Tableau extends Component {
                         return (
                             <div key={entry.id}>
                                 <button className="removeEntry">✖</button>
+                                <p> Date: { entry.entryDate }</p>
                                 <h3>{ entry.entryTitle }</h3>
                                 <p>{ entry.entryComment }</p>
-                                <p> Date: { entry.entryDate }</p>
                             </div>
                         )
                     })

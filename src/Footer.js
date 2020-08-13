@@ -2,8 +2,8 @@ import React from 'react';
 
 const SetFooter = () => {
     return (
-        <footer className="wrapper">
-            <div>
+        <footer>
+            <div className="wrapper">
                 <p>
                 Built by
                 <a href="https://luztherose.com" target="_blank" rel="noopener noreferrer"> Luz De La Rosa</a>, 2020
