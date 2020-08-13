@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/oneMemoryApp/static/css/main.33eedcbb.chunk.css",
-    "main.js": "/oneMemoryApp/static/js/main.871e1c43.chunk.js",
-    "main.js.map": "/oneMemoryApp/static/js/main.871e1c43.chunk.js.map",
+    "main.js": "/oneMemoryApp/static/js/main.5f2face2.chunk.js",
+    "main.js.map": "/oneMemoryApp/static/js/main.5f2face2.chunk.js.map",
     "runtime-main.js": "/oneMemoryApp/static/js/runtime-main.5ce6160c.js",
     "runtime-main.js.map": "/oneMemoryApp/static/js/runtime-main.5ce6160c.js.map",
     "static/js/2.77dcca06.chunk.js": "/oneMemoryApp/static/js/2.77dcca06.chunk.js",
     "static/js/2.77dcca06.chunk.js.map": "/oneMemoryApp/static/js/2.77dcca06.chunk.js.map",
     "index.html": "/oneMemoryApp/index.html",
-    "precache-manifest.78d46fbb39f9b08dbf6b068ef6afc622.js": "/oneMemoryApp/precache-manifest.78d46fbb39f9b08dbf6b068ef6afc622.js",
+    "precache-manifest.c1682098e625b1b823099cd662fedcce.js": "/oneMemoryApp/precache-manifest.c1682098e625b1b823099cd662fedcce.js",
     "service-worker.js": "/oneMemoryApp/service-worker.js",
     "static/css/main.33eedcbb.chunk.css.map": "/oneMemoryApp/static/css/main.33eedcbb.chunk.css.map",
     "static/js/2.77dcca06.chunk.js.LICENSE.txt": "/oneMemoryApp/static/js/2.77dcca06.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5ce6160c.js",
     "static/js/2.77dcca06.chunk.js",
     "static/css/main.33eedcbb.chunk.css",
-    "static/js/main.871e1c43.chunk.js"
+    "static/js/main.5f2face2.chunk.js"
   ]
 }
