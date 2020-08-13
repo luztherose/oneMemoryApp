@@ -6,8 +6,8 @@ class Main extends Component {
         super();
 
         this.state = {
-            entryComment: "",
-            entryDate: "",
+            comment: "",
+            date: "",
             entryTitle: ""
         }
     }
@@ -24,9 +24,9 @@ class Main extends Component {
         dbRef.push(this.state);
 
         this.setState({
-            entryComment: "",
-            entryDate: "",
-            entryTitle: ""
+            comment: "",
+            date: "",
+            title: ""
         })
     }
 
@@ -41,22 +41,22 @@ class Main extends Component {
                 <section className="firstSection wrapper">
                     <form action="submit">
 
-                        <label htmlFor="date" className="date">Entry Date:</label>
-                        <input onChange={this.handleChange}  value={ this.state.entryDate } type="date" name="entryDate" />
+                        <label htmlFor="date">Entry Date:</label>
+                        <input onChange={this.handleChange}  value={ this.state.date } type="date" name="date" />
 
-                        <label htmlFor="title" className="title">Title:</label>
-                        <input onChange={this.handleChange} value={ this.state.entryTitle } type="text" name="entryTitle" placeholder="Trip to France" />
+                        <label htmlFor="title">Title:</label>
+                        <input onChange={this.handleChange} value={ this.state.title } type="text" name="title" placeholder="Trip to France" />
 
                         <label htmlFor="newEntry"></label>
-                        <textarea onChange={this.handleChange} value={ this.state.entryComment } type="text" name="entryComment" id="newEntry" rows="5" cols="40" maxLength="380" placeholder="Type out your Souvenir" />
+                        <textarea onChange={this.handleChange} value={ this.state.comment } type="text" name="comment" id="newEntry" rows="5" cols="40" maxLength="380" placeholder="Type out your Souvenir" />
 
                         <button onClick={this.handleClick}>Log Entry</button>
 
                     </form>
                     <div className="preview">
-                        <p>{this.state.entryDate}</p>
-                        <h3> {this.state.entryTitle}</h3>
-                        <p> {this.state.entryComment}</p>
+                        <p>{this.state.date}</p>
+                        <h3> {this.state.title}</h3>
+                        <p> {this.state.comment}</p>
                     </div>
                 </section>
 

@@ -17,7 +17,7 @@ class Tableau extends Component {
 
             for (let propName in data) {
                 const entry = data[propName]
-                entry.id = propName 
+                entry.id = propName
 
                 newEntries.push(entry);
             }
@@ -26,6 +26,15 @@ class Tableau extends Component {
             })
         })
     }
+
+    deleteEntry = (entryId) => {
+        if(window.confirm('Are sure you want to delete this entry? ❌ ')){
+            const dbRef = firebase.database().ref();
+            dbRef.child(entryId).remove();
+            alert("Deleted ✅")
+        }
+    }
+
     render() {
         return (
             <div className="wrapper entriesSection">
@@ -33,15 +42,15 @@ class Tableau extends Component {
                     this.state.entries.map((entry) => {
                         return (
                             <div key={entry.id}>
-                                <button className="removeEntry">✖</button>
-                                <p> Date: { entry.entryDate }</p>
-                                <h3>{ entry.entryTitle }</h3>
-                                <p>{ entry.entryComment }</p>
+                                <button onClick={ () => this.deleteEntry(entry.id) } className="removeEntry">✖</button>
+                                <p> Date: {entry.date}</p>
+                                <h3>{entry.title}</h3>
+                                <p>{entry.comment}</p>
                             </div>
                         )
                     })
                 }
-                
+
             </div >
         );
     }
