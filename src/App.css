@@ -32,45 +32,69 @@ a {
   text-decoration: none;
 }
 body {
-  /* background-color: salmon; */
   font-size: 2.5rem;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #333;
-  background-color: white;
+  color:#020003;
+  background-color: #dec8a4;
 }
+h1,
+h2,
 h3 {
   font-family: 'Lobster', cursive;
+}
+h3 {
   font-size: 4rem;
-  text-align: center;
   padding: 0px 0 20px 0;
 }
-
+footer,
+header {
+  background-color:#265354;
+}
+footer,
+header,
+a,
+button {
+  color:#f7f7f7;
+}
 .preview p,
 .entriesSection p,
 blockquote {
   font-family: 'Marck Script', cursive;
 }
 .preview p:first-of-type,
-.entriesSection p:first-of-type {
+.entriesSection p:first-of-type,
+blockquote,
+.preview p:last-of-type,
+.entriesSection p:last-of-type {
   text-align: end;
+} 
+h1,
+button,
+.userEntry,
+h2,
+h3,
+.entriesSection div,
+footer {
+  text-align: center;
 }
+/* General style ends here */
+
 /* Header style */
+header {
+  padding-bottom: 30px;
+}
 .description {
   width: 40%;
-  border: 2px dashed white;
-  background-color: goldenrod;
+  border: 2px dashed #e44f28;;
   border-radius: 5px;
   padding: 40px;
   font-weight: 700;
 }
 h1 {
-  font-family: 'Lobster', cursive;
   padding-top: 40px;
-  text-align: center;
   font-size: 8rem;
 }
 blockquote {
-  text-align: end;
   font-size: 2.6rem;
 }
 /* Main style */
@@ -78,52 +102,88 @@ main {
   margin: 0 auto;
   margin-top: 40px;
 }
-.firstSection {
+.formSection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   grid-gap: 4%;
-  
 }
-input,
 button,
 textarea {
   display: block;
 }
 form {
+  margin: 0 auto;
   margin-top: 40px;
+  padding: 30px;
+}
+label {
+  font-size: 3rem;
+  padding-right: 10px;
+  font-weight: 700;
+}
+label[for="title"] {
+  margin-left: 14.3%;
 }
 input {
   margin: 10px 0;
   padding-left: 10px;
   border: none;
-  border-bottom: 1px solid black;
 }
 ::placeholder {
   font-size: 1.6rem;
 }
 textarea {
   margin: 10px 0 30px 0;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding: 10px 0 10px 10px;
+  background-color:#f7f7f7;
+}
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: #e44f28;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+button:hover {background-color: #f76540}
+
+button:active {
+  background-color: #f76540;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button[type="submit"] {
+  margin: 0 auto;
 }
 /* preview section */
 .preview {
+  display: block;
   margin-top: 40px;
   margin-left: 20px;
 }
-.preview 
+.preview h2 {
+  padding-top: 20px;
+  font-size: 5rem;
+}
+.hidden {
+  display: none;
+}
+.userEntry {
+  margin: 0 auto;
+  width: 380px;
+  border: 4px solid #e44f28;
+  border-style: outset;
+  margin-top: 20px;
+  padding: 20px;
+}
 /* Tableau Section */
 .tableau {
   margin: 30px 0;
-  /* background-color: papayawhip; */
-  /* background-image: url(./unsplashBackground.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
 }
 .tableau h2 {
-  text-align: center;
   padding: 30px 0;
   font-size: 6rem;
 }
@@ -131,25 +191,77 @@ textarea {
   display: grid;
   grid-template-columns:  repeat( auto-fit, minmax(280px, 380px) );
   grid-template-rows: auto;
-  /* column-gap: 4%; */
   grid-gap: 50px;
 }
 .entriesSection div {
-  column-count: 1;
-  text-align: center;
+  border: 4px solid #e44f28;
+  border-style: outset;
+  padding: 20px;
+}
+.entriesSection p:last-of-type {
+  margin-top: 15px;
+  color:#265354;
+  font-weight: 700;
 }
 .removeEntry {
-  /* display: inline; */
   font-size: 70%;
   font-family: inherit;
   border: 0;
   padding: 0;
   cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 /* Footer  */
 footer {
+  color: #FFF;
   margin-top: 40px;
-  background-color: goldenrod;
-  text-align: center;
   padding: 30px 0;
+}
+footer a:hover {
+  background-color: #3b6c6d;
+  border-bottom: 2px solid black;
+}
+
+/* Media Queries */
+@media(max-width: 1080px) {
+  .description {
+    width: 60%;
+  }
+  .preview {
+    display: none;
+  }
+}
+@media(max-width: 900px) {
+  .description {
+    width: 80%;
+  }
+  .entriesSection {
+    justify-content: center;
+  }
+}
+@media(max-width: 605px) {
+  .description {
+    width: 100%;
+  }
+  .formSection {
+    display: block;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  textarea {
+    width: 100%;
+  }
+  input {
+    display:block;
+    width: 100%;
+  }
+  label[for="title"] {
+    margin-left: 0;
+  }
 }

@@ -46,6 +46,7 @@ class Tableau extends Component {
                                 <p> Date: {entry.date}</p>
                                 <h3>{entry.title}</h3>
                                 <p>{entry.comment}</p>
+                                <p>{entry.signature} </p>
                             </div>
                         )
                     })
