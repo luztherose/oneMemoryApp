@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/oneMemoryApp/static/css/main.5418c2ce.chunk.css",
-    "main.js": "/oneMemoryApp/static/js/main.b6be490e.chunk.js",
-    "main.js.map": "/oneMemoryApp/static/js/main.b6be490e.chunk.js.map",
+    "main.css": "/oneMemoryApp/static/css/main.b17c0f14.chunk.css",
+    "main.js": "/oneMemoryApp/static/js/main.6c3c7200.chunk.js",
+    "main.js.map": "/oneMemoryApp/static/js/main.6c3c7200.chunk.js.map",
     "runtime-main.js": "/oneMemoryApp/static/js/runtime-main.5ce6160c.js",
     "runtime-main.js.map": "/oneMemoryApp/static/js/runtime-main.5ce6160c.js.map",
     "static/js/2.77dcca06.chunk.js": "/oneMemoryApp/static/js/2.77dcca06.chunk.js",
     "static/js/2.77dcca06.chunk.js.map": "/oneMemoryApp/static/js/2.77dcca06.chunk.js.map",
     "index.html": "/oneMemoryApp/index.html",
-    "precache-manifest.112a4301677fcb341fc8089dbb46978b.js": "/oneMemoryApp/precache-manifest.112a4301677fcb341fc8089dbb46978b.js",
+    "precache-manifest.ae739270782fcadf13ff07d96eeeb9eb.js": "/oneMemoryApp/precache-manifest.ae739270782fcadf13ff07d96eeeb9eb.js",
     "service-worker.js": "/oneMemoryApp/service-worker.js",
-    "static/css/main.5418c2ce.chunk.css.map": "/oneMemoryApp/static/css/main.5418c2ce.chunk.css.map",
+    "static/css/main.b17c0f14.chunk.css.map": "/oneMemoryApp/static/css/main.b17c0f14.chunk.css.map",
     "static/js/2.77dcca06.chunk.js.LICENSE.txt": "/oneMemoryApp/static/js/2.77dcca06.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ce6160c.js",
     "static/js/2.77dcca06.chunk.js",
-    "static/css/main.5418c2ce.chunk.css",
-    "static/js/main.b6be490e.chunk.js"
+    "static/css/main.b17c0f14.chunk.css",
+    "static/js/main.6c3c7200.chunk.js"
   ]
 }

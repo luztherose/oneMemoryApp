@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "002c4ca71cc2069e2fff439b1312a724",
+    "revision": "6e7998a2a9c9d0cd2b4eaf26e58feb05",
     "url": "/oneMemoryApp/index.html"
   },
   {
-    "revision": "4a27110eab2cee368c6c",
-    "url": "/oneMemoryApp/static/css/main.5418c2ce.chunk.css"
+    "revision": "c8cd17fa519b1c8922c6",
+    "url": "/oneMemoryApp/static/css/main.b17c0f14.chunk.css"
   },
   {
     "revision": "83ec73270cda61485553",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oneMemoryApp/static/js/2.77dcca06.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a27110eab2cee368c6c",
-    "url": "/oneMemoryApp/static/js/main.b6be490e.chunk.js"
+    "revision": "c8cd17fa519b1c8922c6",
+    "url": "/oneMemoryApp/static/js/main.6c3c7200.chunk.js"
   },
   {
     "revision": "86e87f1c0591b26077c3",
