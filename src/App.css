@@ -28,7 +28,8 @@ ul,
 blockquote {
   margin: 0;
 }
-a {
+a,
+button {
   text-decoration: none;
 }
 body {
@@ -77,6 +78,16 @@ h3,
 footer {
   text-align: center;
 }
+input,
+button {
+  border: none;
+}
+label,
+.description,
+.entriesSection p:last-of-type,
+button[type="submit"] {
+  font-weight: 700;
+}
 /* General style ends here */
 
 /* Header style */
@@ -84,11 +95,13 @@ header {
   padding-bottom: 30px;
 }
 .description {
-  width: 40%;
+  width: 42%;
   border: 2px dashed #e44f28;;
   border-radius: 5px;
   padding: 40px;
-  font-weight: 700;
+}
+.characters {
+  color: #e44f28;
 }
 h1 {
   padding-top: 40px;
@@ -119,7 +132,6 @@ form {
 label {
   font-size: 3rem;
   padding-right: 10px;
-  font-weight: 700;
 }
 label[for="title"] {
   margin-left: 14.3%;
@@ -127,7 +139,6 @@ label[for="title"] {
 input {
   margin: 10px 0;
   padding-left: 10px;
-  border: none;
 }
 ::placeholder {
   font-size: 1.6rem;
@@ -135,23 +146,22 @@ input {
 textarea {
   margin: 10px 0 30px 0;
   padding: 10px 0 10px 10px;
-  background-color:#f7f7f7;
 }
 button {
   padding: 15px 25px;
   font-size: 24px;
   cursor: pointer;
-  text-decoration: none;
   outline: none;
   background-color: #e44f28;
-  border: none;
   border-radius: 15px;
   box-shadow: 0 5px #999;
 }
-button:hover {background-color: #f76540}
-
+button:hover,
 button:active {
   background-color: #f76540;
+}
+
+button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -184,7 +194,7 @@ button[type="submit"] {
   margin: 30px 0;
 }
 .tableau h2 {
-  padding: 30px 0;
+  padding: 30px 0 40px 0;
   font-size: 6rem;
 }
 .entriesSection {
@@ -201,12 +211,10 @@ button[type="submit"] {
 .entriesSection p:last-of-type {
   margin-top: 15px;
   color:#265354;
-  font-weight: 700;
 }
 .removeEntry {
   font-size: 70%;
   font-family: inherit;
-  border: 0;
   padding: 0;
   cursor: pointer;
   width: 30px;
@@ -215,7 +223,6 @@ button[type="submit"] {
 }
 /* Footer  */
 footer {
-  color: #FFF;
   margin-top: 40px;
   padding: 30px 0;
 }
@@ -243,19 +250,24 @@ footer a:hover {
 }
 @media(max-width: 605px) {
   .description {
-    width: 100%;
+    font-size: 2.2rem;
+    width: 95%;
+    letter-spacing: 0.2px;
+    line-height: 29px;
   }
   .formSection {
     display: block;
   }
   h1 {
     font-size: 6rem;
+    padding-bottom: 10px;
   }
-  h2 {
-    font-size: 4rem;
+  .tableau h2 {
+    font-size: 4.3rem;
   }
   textarea {
     width: 100%;
+    margin-top: 0;
   }
   input {
     display:block;
@@ -263,5 +275,8 @@ footer a:hover {
   }
   label[for="title"] {
     margin-left: 0;
+  }
+  footer {
+    font-size: 2rem;
   }
 }
