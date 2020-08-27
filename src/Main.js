@@ -47,7 +47,7 @@ class Main extends Component {
             <main>
             <section className="wrapper description">
                 <p>
-                oneMemory is an app that allows users to share their most treasured souvenirs with the world. Fill out the form, and let's your most precious memory lives forever in <span className="characters">380</span> characters!
+                oneMemory is an app that allows users to share their most treasured souvenirs with the world. Fill out the form, and let your most precious memory live forever in <span className="characters">380</span> characters!
                 </p>
             </section>
                 <section className="formSection wrapper">
