@@ -57,13 +57,13 @@ class Main extends Component {
                         <input onChange={this.handleChange}  value={ this.state.date } type="date" name="date" required /><br/>
 
                         <label htmlFor="title">Title:</label>
-                        <input onChange={this.handleChange} value={ this.state.title } type="text" name="title" placeholder="Trip to France" required autoFocus /><br/>
+                        <input onChange={this.handleChange} value={ this.state.title } type="text" name="title" placeholder="Trip to France" required/><br/>
 
                         <label htmlFor="sign">Signature:</label>
                         <input onChange={this.handleChange}  value={ this.state.signature } type="text" name="signature" required  placeholder="John S." /><br/>
 
                         <label htmlFor="newEntry"></label>
-                        <textarea onChange={this.handleChange} value={ this.state.comment } type="text" name="comment" id="newEntry" rows="5" cols="40" maxLength="380" placeholder="Type out your Souvenir" required autoFocus />
+                        <textarea onChange={this.handleChange} value={ this.state.comment } type="text" name="comment" id="newEntry" rows="5" cols="40" maxLength="380" placeholder="Type out your Souvenir" required/>
 
                         <button type="submit">Log Entry</button>
                     </form>
