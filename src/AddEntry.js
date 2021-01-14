@@ -3,15 +3,11 @@ import firebase from './firebase';
 import Entry from './Entry';
 
 class AddEntry extends Component {
-    constructor() {
-        super();
-
-        this.state = {
-            comment: "",
-            date: "",
-            title: "",
-            signature: ""
-        }
+    state = {
+        comment: "",
+        date: "",
+        title: "",
+        signature: ""
     }
 
     getPreviewContainerClassName = () => {

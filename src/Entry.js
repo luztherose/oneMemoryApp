@@ -3,11 +3,8 @@ import firebase from './firebase';
 
 class Entry extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            entries: []
-        }
+    state = {
+        entries: []
     }
 
     componentDidMount() {
