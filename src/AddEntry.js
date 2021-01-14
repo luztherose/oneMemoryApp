@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import firebase from './firebase';
-import Tableau from './Tableau';
-class Main extends Component {
+import Entry from './Entry';
+
+class AddEntry extends Component {
     constructor() {
         super();
 
@@ -79,13 +80,13 @@ class Main extends Component {
                     </div>
                 </section>
 
-                <section className="tableau  ">
+                <section className="tableau">
                     <h2>Pin Your Entry <span className="pinImg" role="img" aria-label="pin image">📌</span></h2>
-                    <Tableau />
+                    <Entry />
                 </section>
             </main>
         )
     }
 }
 
-export default Main;
+export default AddEntry;

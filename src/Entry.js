@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import firebase from './firebase';
-class Tableau extends Component {
+
+class Entry extends Component {
 
     constructor() {
         super();
@@ -56,4 +57,4 @@ class Tableau extends Component {
         );
     }
 }
-export default Tableau;
+export default Entry;
