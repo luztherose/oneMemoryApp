@@ -131,7 +131,7 @@ form {
 }
 label {
   font-size: 3rem;
-  padding-right: 10px;
+  padding-right: 30px;
 }
 label[for="title"] {
   margin-left: 14.3%;
@@ -139,13 +139,28 @@ label[for="title"] {
 input {
   margin: 10px 0;
   padding-left: 10px;
+  width: 32rem;
+  display: inline-block;
+  appearance: none;
+  padding: .7rem;
+  border-width: 1px;
+  background-color: #fff;
+  border-color: #e2e8f0;
+  border-radius: .5rem;
 }
+input[type="date"] {
+  margin-left:-8px;
+  color:#666;
+  font-weight: 300;
+}
+
 ::placeholder {
   font-size: 1.6rem;
 }
 textarea {
   margin: 10px 0 30px 0;
-  padding: 10px 0 10px 10px;
+  padding: 10px 0 15px 15px;
+  border-radius: .2rem;
 }
 button {
   padding: 15px 25px;
