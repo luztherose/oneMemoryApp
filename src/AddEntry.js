@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import firebase from './firebase';
-import Entry from './Entry';
 
 class AddEntry extends Component {
     state = {
@@ -41,7 +40,7 @@ class AddEntry extends Component {
 
     render() {
         return (
-            <main>
+            <div>
             <section className="wrapper description">
                 <p>
                 oneMemory is an app that allows users to share their most treasured souvenirs with the world. Fill out the form, and let your most precious memory live forever in <span className="characters">380</span> characters!
@@ -76,11 +75,8 @@ class AddEntry extends Component {
                     </div>
                 </section>
 
-                <section className="tableau">
-                    <h2>Pin Your Entry <span className="pinImg" role="img" aria-label="pin image">📌</span></h2>
-                    <Entry />
-                </section>
-            </main>
+                
+            </div>
         )
     }
 }

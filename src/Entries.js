@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import firebase from './firebase';
 
-class Entry extends Component {
+class Entries extends Component {
 
     state = {
         entries: []
@@ -54,4 +54,4 @@ class Entry extends Component {
         );
     }
 }
-export default Entry;
+export default Entries;
